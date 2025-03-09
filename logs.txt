@@ -1,0 +1,16 @@
+*   cc31332 (HEAD -> master, origin/master, origin/HEAD) Merge branch '2-find-all-completed-tasks' Merge with git commands done localy... :wq
+|\  
+| * 6c04832 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Function Implemented
+* |   dc907be Merge pull request #11 from JordanTodorovski1/3-list-tasks-sorted-by-name
+|\ \  
+| * | ba6df91 (origin/3-list-tasks-sorted-by-name, 3-list-tasks-sorted-by-name) Added function for sorting of names
+| |/  
+* |   3a2a5e9 Merge pull request #12 from JordanTodorovski1/9-mark-all-tasks-in-a-category-as-completed
+|\ \  
+| |/  
+|/|   
+| * 11f0d88 (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Function mark all tasks in category as completed done...
+|/  
+* 1f2b593 Add starter code
+* f0f293d Initial commit
+* 8dc2e5e Initial commit

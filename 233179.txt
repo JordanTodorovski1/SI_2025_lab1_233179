@@ -1,0 +1,20 @@
+git fetch origin
+git checkout -b 2-find-all-completed-tasks origin/2-find-all-completed-tasks
+git add .
+git commit -m "Implemented function for finding all completed tasks"
+git push origin 2-find-all-completed-tasks
+git checkout -b 3-list-tasks-sorted-by-name origin/3-list-tasks-sorted-by-name
+git add .
+git commit -m "Added function for sorting tasks by name"
+git push origin 3-list-tasks-sorted-by-name
+git checkout -b 9-mark-all-tasks-in-a-category-as-completed origin/9-mark-all-tasks-in-a-category-as-completed
+git add .
+git commit -m "Mark all tasks in category as completed"
+git push origin 9-mark-all-tasks-in-a-category-as-completed
+git checkout master
+git merge 9-mark-all-tasks-in-a-category-as-completed
+git push origin master
+git log --oneline --graph --all > logs.txt
+git add logs.txt 233179.txt
+git commit -m "Final commit"
+git push origin master
